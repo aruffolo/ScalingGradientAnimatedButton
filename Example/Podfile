@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ScalingGradientAnimatedButton_Example' do
+  pod 'ScalingGradientAnimatedButton', :path => '../'
+
+  target 'ScalingGradientAnimatedButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
