@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11B782075E536117D104C6737B08063C /* Pods-ScalingGradientAnimatedButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58072F337AD4EF03B9AB9AC59B4AD89D /* Pods-ScalingGradientAnimatedButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BB138657BB2B7E34316B918CD30A572 /* Pods-ScalingGradientAnimatedButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50671B3A3778DE79A23AC4B90BFF337A /* Pods-ScalingGradientAnimatedButton_Tests-dummy.m */; };
+		336D98D4A8BC9D40FF102DC528306DB7 /* ScalingGradientAnimatedButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBDB6C89EDB58C5C4EDEAFE76CC1B29 /* ScalingGradientAnimatedButton-dummy.m */; };
+		56495A33FC9377566695D66E30455BE8 /* Pods-ScalingGradientAnimatedButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0DF49E07FA6F2EE460E5365B5A3D22 /* Pods-ScalingGradientAnimatedButton_Example-dummy.m */; };
+		5BFAAA654482A3F891695A501AE85AEE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C28150647FAA72266BBF12D082B32 /* ReplaceMe.swift */; };
+		5C09C63712A7C3EF7B2FEFBAE38D2955 /* ScalingGradientAnimatedButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F481544E51D1B670B53696FEAA506695 /* ScalingGradientAnimatedButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710869F577A4D53426D843CFA7EFBC89 /* Pods-ScalingGradientAnimatedButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 331930825E57BC191ACEE28FDC080E97 /* Pods-ScalingGradientAnimatedButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7636AC2AA3DFC09B1408F5CB497AF4A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7CD27720659282A8CC76EA3E29251CF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F4745A1047311E31388FE6676018766E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		314958693C911F4C42C2550D53EB3854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B1CC1D5E0B9410E6D074A928D1F7429;
+			remoteInfo = ScalingGradientAnimatedButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		083584A14A916F07BD86A830F2761811 /* Pods_ScalingGradientAnimatedButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScalingGradientAnimatedButton_Tests.framework; path = "Pods-ScalingGradientAnimatedButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB59FA44B700CACBC6B24ECECB9E98C /* ScalingGradientAnimatedButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ScalingGradientAnimatedButton.modulemap; sourceTree = "<group>"; };
+		2AD8F9D5EBEAE2A27C49AD286A06F35F /* Pods-ScalingGradientAnimatedButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScalingGradientAnimatedButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		331930825E57BC191ACEE28FDC080E97 /* Pods-ScalingGradientAnimatedButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScalingGradientAnimatedButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		359FBB6B3096677EE170C6A855CD2856 /* Pods-ScalingGradientAnimatedButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ScalingGradientAnimatedButton_Example.modulemap"; sourceTree = "<group>"; };
+		3F0DF49E07FA6F2EE460E5365B5A3D22 /* Pods-ScalingGradientAnimatedButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScalingGradientAnimatedButton_Example-dummy.m"; sourceTree = "<group>"; };
+		3FA2212569E7B93D23C2E229D4E1CD78 /* Pods-ScalingGradientAnimatedButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScalingGradientAnimatedButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4C62B004003E0B43FF8170745BCD0107 /* Pods-ScalingGradientAnimatedButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScalingGradientAnimatedButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		4E0F178AC98EAD31C38AF085D312FB43 /* Pods-ScalingGradientAnimatedButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScalingGradientAnimatedButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		50671B3A3778DE79A23AC4B90BFF337A /* Pods-ScalingGradientAnimatedButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScalingGradientAnimatedButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		58072F337AD4EF03B9AB9AC59B4AD89D /* Pods-ScalingGradientAnimatedButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScalingGradientAnimatedButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		58E4D1EB92B0DCEB90489EA3F9CADD7B /* Pods_ScalingGradientAnimatedButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScalingGradientAnimatedButton_Example.framework; path = "Pods-ScalingGradientAnimatedButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E8585762B0FB45EA84A3F20EFCA89C /* Pods-ScalingGradientAnimatedButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScalingGradientAnimatedButton_Example-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76857203DE1704A7CE4520D5368764AA /* Pods-ScalingGradientAnimatedButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScalingGradientAnimatedButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7E119E9FE99C9CBE48D34571D27ECB93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897C28150647FAA72266BBF12D082B32 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		8FE9D71325AACD56E12312A650DA362E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99B09DFD18445CE6BE878A59B119C74B /* Pods-ScalingGradientAnimatedButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScalingGradientAnimatedButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A22D1704C022D6503A9566522272DE2F /* Pods-ScalingGradientAnimatedButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ScalingGradientAnimatedButton_Tests.modulemap"; sourceTree = "<group>"; };
+		A700A3C9BE4B43C6A95A6E401491085B /* Pods-ScalingGradientAnimatedButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScalingGradientAnimatedButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AC1AA2F8B0CAF82A903649D8D6FFE759 /* Pods-ScalingGradientAnimatedButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScalingGradientAnimatedButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AC3C12EB5781A831315BBB1F68A89531 /* ScalingGradientAnimatedButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScalingGradientAnimatedButton-prefix.pch"; sourceTree = "<group>"; };
+		B66DECE9B82EDB00992CDE50A1CF39AE /* Pods-ScalingGradientAnimatedButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScalingGradientAnimatedButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBBDB6C89EDB58C5C4EDEAFE76CC1B29 /* ScalingGradientAnimatedButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScalingGradientAnimatedButton-dummy.m"; sourceTree = "<group>"; };
+		DC43115C6D9A1FCC9BCCAB616643CB16 /* ScalingGradientAnimatedButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScalingGradientAnimatedButton.xcconfig; sourceTree = "<group>"; };
+		E690C63C57DFC77F2BA80823DE815A70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F481544E51D1B670B53696FEAA506695 /* ScalingGradientAnimatedButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScalingGradientAnimatedButton-umbrella.h"; sourceTree = "<group>"; };
+		F5FAEEAACD3D855ADB2A7DC7384BC2FB /* Pods-ScalingGradientAnimatedButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScalingGradientAnimatedButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F6D65B5F3AC58B9D2A15101C2A32626E /* ScalingGradientAnimatedButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScalingGradientAnimatedButton.framework; path = ScalingGradientAnimatedButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82D5840FE629DD4E7DA57628A365106 /* Pods-ScalingGradientAnimatedButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScalingGradientAnimatedButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		145968B0C8773BC88601B8CA2C6E6FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4745A1047311E31388FE6676018766E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1930442474FCEE2E98C2C43F7C1E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD27720659282A8CC76EA3E29251CF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1BF084EA1C0B5D6BBDD0CE3D319169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7636AC2AA3DFC09B1408F5CB497AF4A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		014F011D8972868DFECAB3CE07691725 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2D71AB577EACE1F69559D59FFDBF9C4 /* Pods-ScalingGradientAnimatedButton_Example */,
+				89082CE056654C176A9A1D14F8127CD9 /* Pods-ScalingGradientAnimatedButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		03EA5BF02D1F2A1959853E8F99301425 /* ScalingGradientAnimatedButton */ = {
+			isa = PBXGroup;
+			children = (
+				34E6F15EAFD5F658C73F58058D47B246 /* ScalingGradientAnimatedButton */,
+				E97353CDF0C058A6E810EF4509BF451E /* Support Files */,
+			);
+			name = ScalingGradientAnimatedButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		34E6F15EAFD5F658C73F58058D47B246 /* ScalingGradientAnimatedButton */ = {
+			isa = PBXGroup;
+			children = (
+				A03CE6BA59815E3B94DE9AC9DA26404D /* Classes */,
+			);
+			name = ScalingGradientAnimatedButton;
+			path = ScalingGradientAnimatedButton;
+			sourceTree = "<group>";
+		};
+		37E8276C787341300555C35DF573B132 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03EA5BF02D1F2A1959853E8F99301425 /* ScalingGradientAnimatedButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				37E8276C787341300555C35DF573B132 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9C361162903DF79A44DADC99329A8531 /* Products */,
+				014F011D8972868DFECAB3CE07691725 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89082CE056654C176A9A1D14F8127CD9 /* Pods-ScalingGradientAnimatedButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E690C63C57DFC77F2BA80823DE815A70 /* Info.plist */,
+				A22D1704C022D6503A9566522272DE2F /* Pods-ScalingGradientAnimatedButton_Tests.modulemap */,
+				3FA2212569E7B93D23C2E229D4E1CD78 /* Pods-ScalingGradientAnimatedButton_Tests-acknowledgements.markdown */,
+				B66DECE9B82EDB00992CDE50A1CF39AE /* Pods-ScalingGradientAnimatedButton_Tests-acknowledgements.plist */,
+				50671B3A3778DE79A23AC4B90BFF337A /* Pods-ScalingGradientAnimatedButton_Tests-dummy.m */,
+				76857203DE1704A7CE4520D5368764AA /* Pods-ScalingGradientAnimatedButton_Tests-frameworks.sh */,
+				4C62B004003E0B43FF8170745BCD0107 /* Pods-ScalingGradientAnimatedButton_Tests-resources.sh */,
+				331930825E57BC191ACEE28FDC080E97 /* Pods-ScalingGradientAnimatedButton_Tests-umbrella.h */,
+				99B09DFD18445CE6BE878A59B119C74B /* Pods-ScalingGradientAnimatedButton_Tests.debug.xcconfig */,
+				F5FAEEAACD3D855ADB2A7DC7384BC2FB /* Pods-ScalingGradientAnimatedButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-ScalingGradientAnimatedButton_Tests";
+			path = "Target Support Files/Pods-ScalingGradientAnimatedButton_Tests";
+			sourceTree = "<group>";
+		};
+		9C361162903DF79A44DADC99329A8531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58E4D1EB92B0DCEB90489EA3F9CADD7B /* Pods_ScalingGradientAnimatedButton_Example.framework */,
+				083584A14A916F07BD86A830F2761811 /* Pods_ScalingGradientAnimatedButton_Tests.framework */,
+				F6D65B5F3AC58B9D2A15101C2A32626E /* ScalingGradientAnimatedButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A03CE6BA59815E3B94DE9AC9DA26404D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				897C28150647FAA72266BBF12D082B32 /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E2D71AB577EACE1F69559D59FFDBF9C4 /* Pods-ScalingGradientAnimatedButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7E119E9FE99C9CBE48D34571D27ECB93 /* Info.plist */,
+				359FBB6B3096677EE170C6A855CD2856 /* Pods-ScalingGradientAnimatedButton_Example.modulemap */,
+				AC1AA2F8B0CAF82A903649D8D6FFE759 /* Pods-ScalingGradientAnimatedButton_Example-acknowledgements.markdown */,
+				F82D5840FE629DD4E7DA57628A365106 /* Pods-ScalingGradientAnimatedButton_Example-acknowledgements.plist */,
+				3F0DF49E07FA6F2EE460E5365B5A3D22 /* Pods-ScalingGradientAnimatedButton_Example-dummy.m */,
+				2AD8F9D5EBEAE2A27C49AD286A06F35F /* Pods-ScalingGradientAnimatedButton_Example-frameworks.sh */,
+				64E8585762B0FB45EA84A3F20EFCA89C /* Pods-ScalingGradientAnimatedButton_Example-resources.sh */,
+				58072F337AD4EF03B9AB9AC59B4AD89D /* Pods-ScalingGradientAnimatedButton_Example-umbrella.h */,
+				A700A3C9BE4B43C6A95A6E401491085B /* Pods-ScalingGradientAnimatedButton_Example.debug.xcconfig */,
+				4E0F178AC98EAD31C38AF085D312FB43 /* Pods-ScalingGradientAnimatedButton_Example.release.xcconfig */,
+			);
+			name = "Pods-ScalingGradientAnimatedButton_Example";
+			path = "Target Support Files/Pods-ScalingGradientAnimatedButton_Example";
+			sourceTree = "<group>";
+		};
+		E97353CDF0C058A6E810EF4509BF451E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FE9D71325AACD56E12312A650DA362E /* Info.plist */,
+				1AB59FA44B700CACBC6B24ECECB9E98C /* ScalingGradientAnimatedButton.modulemap */,
+				DC43115C6D9A1FCC9BCCAB616643CB16 /* ScalingGradientAnimatedButton.xcconfig */,
+				DBBDB6C89EDB58C5C4EDEAFE76CC1B29 /* ScalingGradientAnimatedButton-dummy.m */,
+				AC3C12EB5781A831315BBB1F68A89531 /* ScalingGradientAnimatedButton-prefix.pch */,
+				F481544E51D1B670B53696FEAA506695 /* ScalingGradientAnimatedButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ScalingGradientAnimatedButton";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		376D2FDF5F558EC4F77DFF748C8A21F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710869F577A4D53426D843CFA7EFBC89 /* Pods-ScalingGradientAnimatedButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33087CC238AA5351FF7AC958D78A155 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B782075E536117D104C6737B08063C /* Pods-ScalingGradientAnimatedButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B085BDDFDF7FEFED0D998BD2EF7BFA4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C09C63712A7C3EF7B2FEFBAE38D2955 /* ScalingGradientAnimatedButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B1CC1D5E0B9410E6D074A928D1F7429 /* ScalingGradientAnimatedButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5AD57B776D4EE489AD7291DC5A31FA /* Build configuration list for PBXNativeTarget "ScalingGradientAnimatedButton" */;
+			buildPhases = (
+				296544B8A9DE843AB7AD6C8CC221E814 /* Sources */,
+				145968B0C8773BC88601B8CA2C6E6FC9 /* Frameworks */,
+				B085BDDFDF7FEFED0D998BD2EF7BFA4B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScalingGradientAnimatedButton;
+			productName = ScalingGradientAnimatedButton;
+			productReference = F6D65B5F3AC58B9D2A15101C2A32626E /* ScalingGradientAnimatedButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D0D83BE19CBB5CAAC8F9BF4A6455735 /* Pods-ScalingGradientAnimatedButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0942351AFBFC34752333E0F4F8E57DDF /* Build configuration list for PBXNativeTarget "Pods-ScalingGradientAnimatedButton_Tests" */;
+			buildPhases = (
+				1BE1EC8912E4C6058E1A1C6B8C62809C /* Sources */,
+				5F1930442474FCEE2E98C2C43F7C1E24 /* Frameworks */,
+				376D2FDF5F558EC4F77DFF748C8A21F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ScalingGradientAnimatedButton_Tests";
+			productName = "Pods-ScalingGradientAnimatedButton_Tests";
+			productReference = 083584A14A916F07BD86A830F2761811 /* Pods_ScalingGradientAnimatedButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC27F7446E730719689125F26661066F /* Pods-ScalingGradientAnimatedButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60E00E910C4256D2DDC74494D3223DED /* Build configuration list for PBXNativeTarget "Pods-ScalingGradientAnimatedButton_Example" */;
+			buildPhases = (
+				7AD567B688E09BF569BDEE863B57BAA6 /* Sources */,
+				FD1BF084EA1C0B5D6BBDD0CE3D319169 /* Frameworks */,
+				A33087CC238AA5351FF7AC958D78A155 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				149F4A3C8F23741A2EC43E8E0285827A /* PBXTargetDependency */,
+			);
+			name = "Pods-ScalingGradientAnimatedButton_Example";
+			productName = "Pods-ScalingGradientAnimatedButton_Example";
+			productReference = 58E4D1EB92B0DCEB90489EA3F9CADD7B /* Pods_ScalingGradientAnimatedButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9C361162903DF79A44DADC99329A8531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC27F7446E730719689125F26661066F /* Pods-ScalingGradientAnimatedButton_Example */,
+				6D0D83BE19CBB5CAAC8F9BF4A6455735 /* Pods-ScalingGradientAnimatedButton_Tests */,
+				1B1CC1D5E0B9410E6D074A928D1F7429 /* ScalingGradientAnimatedButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BE1EC8912E4C6058E1A1C6B8C62809C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB138657BB2B7E34316B918CD30A572 /* Pods-ScalingGradientAnimatedButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		296544B8A9DE843AB7AD6C8CC221E814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFAAA654482A3F891695A501AE85AEE /* ReplaceMe.swift in Sources */,
+				336D98D4A8BC9D40FF102DC528306DB7 /* ScalingGradientAnimatedButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AD567B688E09BF569BDEE863B57BAA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56495A33FC9377566695D66E30455BE8 /* Pods-ScalingGradientAnimatedButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		149F4A3C8F23741A2EC43E8E0285827A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ScalingGradientAnimatedButton;
+			target = 1B1CC1D5E0B9410E6D074A928D1F7429 /* ScalingGradientAnimatedButton */;
+			targetProxy = 314958693C911F4C42C2550D53EB3854 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FF5088C0942F1DE86B5E0A0DBC5F0B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E0F178AC98EAD31C38AF085D312FB43 /* Pods-ScalingGradientAnimatedButton_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScalingGradientAnimatedButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScalingGradientAnimatedButton_Example/Pods-ScalingGradientAnimatedButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScalingGradientAnimatedButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9FAB475C8E258C329139FA6E1AE5B7E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC43115C6D9A1FCC9BCCAB616643CB16 /* ScalingGradientAnimatedButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ScalingGradientAnimatedButton/ScalingGradientAnimatedButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScalingGradientAnimatedButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScalingGradientAnimatedButton/ScalingGradientAnimatedButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ScalingGradientAnimatedButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2D7B5E9F8CCEC62ADF1E09D17039BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A700A3C9BE4B43C6A95A6E401491085B /* Pods-ScalingGradientAnimatedButton_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScalingGradientAnimatedButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScalingGradientAnimatedButton_Example/Pods-ScalingGradientAnimatedButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScalingGradientAnimatedButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F15CBC90EF2F9236F7BD2080F7B2F66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5FAEEAACD3D855ADB2A7DC7384BC2FB /* Pods-ScalingGradientAnimatedButton_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScalingGradientAnimatedButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScalingGradientAnimatedButton_Tests/Pods-ScalingGradientAnimatedButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScalingGradientAnimatedButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F54E3CB69C37CFE7A5D2341A332AFB1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B09DFD18445CE6BE878A59B119C74B /* Pods-ScalingGradientAnimatedButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScalingGradientAnimatedButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScalingGradientAnimatedButton_Tests/Pods-ScalingGradientAnimatedButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScalingGradientAnimatedButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F77365B3D3406239BC212016C4FD9FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC43115C6D9A1FCC9BCCAB616643CB16 /* ScalingGradientAnimatedButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ScalingGradientAnimatedButton/ScalingGradientAnimatedButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScalingGradientAnimatedButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScalingGradientAnimatedButton/ScalingGradientAnimatedButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ScalingGradientAnimatedButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0942351AFBFC34752333E0F4F8E57DDF /* Build configuration list for PBXNativeTarget "Pods-ScalingGradientAnimatedButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54E3CB69C37CFE7A5D2341A332AFB1C /* Debug */,
+				F15CBC90EF2F9236F7BD2080F7B2F66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5AD57B776D4EE489AD7291DC5A31FA /* Build configuration list for PBXNativeTarget "ScalingGradientAnimatedButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FAB475C8E258C329139FA6E1AE5B7E8 /* Debug */,
+				F77365B3D3406239BC212016C4FD9FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60E00E910C4256D2DDC74494D3223DED /* Build configuration list for PBXNativeTarget "Pods-ScalingGradientAnimatedButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D7B5E9F8CCEC62ADF1E09D17039BC4 /* Debug */,
+				1FF5088C0942F1DE86B5E0A0DBC5F0B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module ScalingGradientAnimatedButton {
+  umbrella header "ScalingGradientAnimatedButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

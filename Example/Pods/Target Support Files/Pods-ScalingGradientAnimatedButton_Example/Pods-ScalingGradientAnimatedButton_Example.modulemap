@@ -1,0 +1,6 @@
+framework module Pods_ScalingGradientAnimatedButton_Example {
+  umbrella header "Pods-ScalingGradientAnimatedButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
