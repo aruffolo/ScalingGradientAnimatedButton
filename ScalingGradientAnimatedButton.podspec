@@ -32,7 +32,7 @@ DESC
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Antonio Ruffolo' => 'antonioruffolo2@gmail.com' }
   s.source           = { :git => 'https://github.com/aruffolo/ScalingGradientAnimatedButton.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/AntonioRuffolo1'
 
   s.ios.deployment_target = '8.0'
 

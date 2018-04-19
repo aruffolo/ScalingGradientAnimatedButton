@@ -9,14 +9,15 @@
 /* Begin PBXBuildFile section */
 		11B782075E536117D104C6737B08063C /* Pods-ScalingGradientAnimatedButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58072F337AD4EF03B9AB9AC59B4AD89D /* Pods-ScalingGradientAnimatedButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BB138657BB2B7E34316B918CD30A572 /* Pods-ScalingGradientAnimatedButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50671B3A3778DE79A23AC4B90BFF337A /* Pods-ScalingGradientAnimatedButton_Tests-dummy.m */; };
-		336D98D4A8BC9D40FF102DC528306DB7 /* ScalingGradientAnimatedButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBDB6C89EDB58C5C4EDEAFE76CC1B29 /* ScalingGradientAnimatedButton-dummy.m */; };
+		1FD6595249E7D535347DA3CF1CDA7C94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		56495A33FC9377566695D66E30455BE8 /* Pods-ScalingGradientAnimatedButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0DF49E07FA6F2EE460E5365B5A3D22 /* Pods-ScalingGradientAnimatedButton_Example-dummy.m */; };
-		5BFAAA654482A3F891695A501AE85AEE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C28150647FAA72266BBF12D082B32 /* ReplaceMe.swift */; };
 		5C09C63712A7C3EF7B2FEFBAE38D2955 /* ScalingGradientAnimatedButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F481544E51D1B670B53696FEAA506695 /* ScalingGradientAnimatedButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		622098F16DDCCCE1BB1554CBDFE2DE6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		710869F577A4D53426D843CFA7EFBC89 /* Pods-ScalingGradientAnimatedButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 331930825E57BC191ACEE28FDC080E97 /* Pods-ScalingGradientAnimatedButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7636AC2AA3DFC09B1408F5CB497AF4A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7CD27720659282A8CC76EA3E29251CF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F4745A1047311E31388FE6676018766E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7636AC2AA3DFC09B1408F5CB497AF4A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		7CD27720659282A8CC76EA3E29251CF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		BE98F986F9B4B42E8A0C418B63CFF050 /* ScalingGradientAnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46908645D4FE34C61AE1937EA31A3A /* ScalingGradientAnimatedButton.swift */; };
+		CB089F9B315400AE675C7B0D55A26CEA /* ScalingGradientAnimatedButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBDB6C89EDB58C5C4EDEAFE76CC1B29 /* ScalingGradientAnimatedButton-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +44,8 @@
 		58072F337AD4EF03B9AB9AC59B4AD89D /* Pods-ScalingGradientAnimatedButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScalingGradientAnimatedButton_Example-umbrella.h"; sourceTree = "<group>"; };
 		58E4D1EB92B0DCEB90489EA3F9CADD7B /* Pods_ScalingGradientAnimatedButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScalingGradientAnimatedButton_Example.framework; path = "Pods-ScalingGradientAnimatedButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E8585762B0FB45EA84A3F20EFCA89C /* Pods-ScalingGradientAnimatedButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScalingGradientAnimatedButton_Example-resources.sh"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		76857203DE1704A7CE4520D5368764AA /* Pods-ScalingGradientAnimatedButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScalingGradientAnimatedButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7E119E9FE99C9CBE48D34571D27ECB93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		897C28150647FAA72266BBF12D082B32 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		8FE9D71325AACD56E12312A650DA362E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99B09DFD18445CE6BE878A59B119C74B /* Pods-ScalingGradientAnimatedButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScalingGradientAnimatedButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -54,7 +53,10 @@
 		A700A3C9BE4B43C6A95A6E401491085B /* Pods-ScalingGradientAnimatedButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScalingGradientAnimatedButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AC1AA2F8B0CAF82A903649D8D6FFE759 /* Pods-ScalingGradientAnimatedButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScalingGradientAnimatedButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AC3C12EB5781A831315BBB1F68A89531 /* ScalingGradientAnimatedButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScalingGradientAnimatedButton-prefix.pch"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B66DECE9B82EDB00992CDE50A1CF39AE /* Pods-ScalingGradientAnimatedButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScalingGradientAnimatedButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE46908645D4FE34C61AE1937EA31A3A /* ScalingGradientAnimatedButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScalingGradientAnimatedButton.swift; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DBBDB6C89EDB58C5C4EDEAFE76CC1B29 /* ScalingGradientAnimatedButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScalingGradientAnimatedButton-dummy.m"; sourceTree = "<group>"; };
 		DC43115C6D9A1FCC9BCCAB616643CB16 /* ScalingGradientAnimatedButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScalingGradientAnimatedButton.xcconfig; sourceTree = "<group>"; };
 		E690C63C57DFC77F2BA80823DE815A70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,19 +67,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		145968B0C8773BC88601B8CA2C6E6FC9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4745A1047311E31388FE6676018766E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5F1930442474FCEE2E98C2C43F7C1E24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7CD27720659282A8CC76EA3E29251CF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A530A92E462DF769DE9CF92C1F802C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622098F16DDCCCE1BB1554CBDFE2DE6A /* Foundation.framework in Frameworks */,
+				1FD6595249E7D535347DA3CF1CDA7C94 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +117,7 @@
 		34E6F15EAFD5F658C73F58058D47B246 /* ScalingGradientAnimatedButton */ = {
 			isa = PBXGroup;
 			children = (
-				A03CE6BA59815E3B94DE9AC9DA26404D /* Classes */,
+				6F0F61891DCFCA326F4C8CEE5E17C4A7 /* Classes */,
 			);
 			name = ScalingGradientAnimatedButton;
 			path = ScalingGradientAnimatedButton;
@@ -128,12 +131,38 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F0F61891DCFCA326F4C8CEE5E17C4A7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BE46908645D4FE34C61AE1937EA31A3A /* ScalingGradientAnimatedButton.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				37E8276C787341300555C35DF573B132 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				9C361162903DF79A44DADC99329A8531 /* Products */,
 				014F011D8972868DFECAB3CE07691725 /* Targets Support Files */,
 			);
@@ -165,31 +194,6 @@
 				F6D65B5F3AC58B9D2A15101C2A32626E /* ScalingGradientAnimatedButton.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A03CE6BA59815E3B94DE9AC9DA26404D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				897C28150647FAA72266BBF12D082B32 /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		E2D71AB577EACE1F69559D59FFDBF9C4 /* Pods-ScalingGradientAnimatedButton_Example */ = {
@@ -258,8 +262,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D5AD57B776D4EE489AD7291DC5A31FA /* Build configuration list for PBXNativeTarget "ScalingGradientAnimatedButton" */;
 			buildPhases = (
-				296544B8A9DE843AB7AD6C8CC221E814 /* Sources */,
-				145968B0C8773BC88601B8CA2C6E6FC9 /* Frameworks */,
+				CAD0A798A895153831C27C449AB30C10 /* Sources */,
+				A530A92E462DF769DE9CF92C1F802C27 /* Frameworks */,
 				B085BDDFDF7FEFED0D998BD2EF7BFA4B /* Headers */,
 			);
 			buildRules = (
@@ -343,20 +347,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		296544B8A9DE843AB7AD6C8CC221E814 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5BFAAA654482A3F891695A501AE85AEE /* ReplaceMe.swift in Sources */,
-				336D98D4A8BC9D40FF102DC528306DB7 /* ScalingGradientAnimatedButton-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7AD567B688E09BF569BDEE863B57BAA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				56495A33FC9377566695D66E30455BE8 /* Pods-ScalingGradientAnimatedButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD0A798A895153831C27C449AB30C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB089F9B315400AE675C7B0D55A26CEA /* ScalingGradientAnimatedButton-dummy.m in Sources */,
+				BE98F986F9B4B42E8A0C418B63CFF050 /* ScalingGradientAnimatedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

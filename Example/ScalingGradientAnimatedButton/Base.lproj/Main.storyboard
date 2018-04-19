@@ -20,8 +20,35 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3MF-aZ-SeD" customClass="ScalingGradientAnimatedButton" customModule="ScalingGradientAnimatedButton">
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gro-nG-ztT">
+                                        <rect key="frame" x="78.5" y="89.5" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1058823529" green="0.80784313730000001" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="gro-nG-ztT" firstAttribute="centerY" secondItem="3MF-aZ-SeD" secondAttribute="centerY" id="Xy8-Er-2MT"/>
+                                    <constraint firstAttribute="height" constant="200" id="akU-Ld-EQi"/>
+                                    <constraint firstItem="gro-nG-ztT" firstAttribute="centerX" secondItem="3MF-aZ-SeD" secondAttribute="centerX" id="eN7-gj-hNn"/>
+                                    <constraint firstAttribute="width" constant="200" id="osQ-B7-mDL"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3MF-aZ-SeD" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="D6C-Le-1Zh"/>
+                            <constraint firstItem="3MF-aZ-SeD" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="hUz-0l-edq"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="button" destination="3MF-aZ-SeD" id="gnz-Wx-N8N"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

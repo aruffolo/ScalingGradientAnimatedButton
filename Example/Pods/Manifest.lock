@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ScalingGradientAnimatedButton: 8f1121889419607f8383d3d07dbec8aea62f486d
+  ScalingGradientAnimatedButton: 7c31b548f5b3cf163ce7dcbd35447d7a62eb8a5d
 
 PODFILE CHECKSUM: bddc770a7a2c92b9b4a579ba8f7002d7f6990e80
 

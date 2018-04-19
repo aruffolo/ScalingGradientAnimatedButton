@@ -11,6 +11,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+iOS 8
+Swift 4.0
+
 ## Installation
 
 ScalingGradientAnimatedButton is available through [CocoaPods](http://cocoapods.org). To install
@@ -22,7 +25,7 @@ pod 'ScalingGradientAnimatedButton'
 
 ## Author
 
-Antonio Ruffolo, antonioruffolo2@gmail.com
+Antonio Ruffolo
 
 ## License
 

@@ -7,18 +7,35 @@
 //
 
 import UIKit
+import ScalingGradientAnimatedButton
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+class ViewController: UIViewController
+{
+  @IBOutlet weak var button: ScalingGradientAnimatedButton!
+  
+  override func viewDidLoad()
+  {
+    super.viewDidLoad()
+    
+    do
+    {
+      try button.initButton(opacity: 1.0, color: UIColor.black, selectedColor: UIColor.cyan, buttonScale: 0.6, animationDuration: 0.5, shadowOpacity: 0.4, shadowRadius: 1.0, shouldHaveSelectedColorAnimation: true)
+    }
+    catch ScalingGradientAnimatedButtonViewError.startGradientColorsAndLocationMismatch(let errorMessage)
+    {
+      print(errorMessage)
+    }
+    catch
+    {
+      print(error)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+  }
+  
+  override func didReceiveMemoryWarning()
+  {
+    super.didReceiveMemoryWarning()
+    // Dispose of any resources that can be recreated.
+  }
 }
 
