@@ -6,7 +6,7 @@
 
 ## Overview
 
-ScalingGradientAnimatedButton is a subclass of UIView, written is Swift, that encloses a gradient and scale animation in a view.
+ScalingGradientAnimatedButton is a subclass of UIView, written is Swift, that encloses a gradient and a scale animation in a view.
 
 ![](ButtonScreen.PNG?raw=true "Button Screenshoot in 'A Complex Calc")
 
@@ -49,11 +49,6 @@ catch
 }
 
 ```
-
-## Example Project
-
-An example project is included with this repo. To run the example project, clone the repo, and run 'pod install' from the Example directory first
-
 ## Author
 
 Antonio Ruffolo
