@@ -30,7 +30,7 @@ pod 'ScalingGradientAnimatedButton'
 ```
 ## Usage
 
-Four functions of initialization are included to provide enough customization.
+Four inizialization functions are included to provide enough customization.
 
 ```Swift
 
@@ -56,7 +56,7 @@ To intercept events arriving on the button assign this closure, it pass the tag 
 
 ```Swift
 button.calculatorButtonEvent = { tag in
-print("Tap or long press received")
+  print("Tap or long press received")
 }
 ```
 
