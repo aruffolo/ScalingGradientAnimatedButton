@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ScalingGradientAnimatedButton'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A subview of UIView that provide a custom Button with a gradient and scale animation'
 
 # This description is used to generate tags and improve search results.

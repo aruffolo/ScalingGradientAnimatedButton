@@ -1,5 +1,5 @@
 PODS:
-  - ScalingGradientAnimatedButton (0.1.0)
+  - ScalingGradientAnimatedButton (0.1.1)
 
 DEPENDENCIES:
   - ScalingGradientAnimatedButton (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ScalingGradientAnimatedButton: 7c31b548f5b3cf163ce7dcbd35447d7a62eb8a5d
+  ScalingGradientAnimatedButton: 5f1aa2a50660c3755d125b892e2bca332b3bf1bd
 
 PODFILE CHECKSUM: bddc770a7a2c92b9b4a579ba8f7002d7f6990e80
 

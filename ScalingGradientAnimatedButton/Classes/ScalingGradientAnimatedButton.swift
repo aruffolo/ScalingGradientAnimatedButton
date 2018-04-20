@@ -16,16 +16,16 @@ public struct ButtonPosition: OptionSet
     self.rawValue = rawValue
   }
   
-  static let top = ButtonPosition(rawValue: 1 << 0)
-  static let bottom = ButtonPosition(rawValue: 1 << 1)
-  static let left = ButtonPosition(rawValue: 1 << 2)
-  static let right = ButtonPosition(rawValue: 1 << 3)
-  static let middle = ButtonPosition(rawValue: 1 << 4)
+  public static let top = ButtonPosition(rawValue: 1 << 0)
+  public static let bottom = ButtonPosition(rawValue: 1 << 1)
+  public static let left = ButtonPosition(rawValue: 1 << 2)
+  public static let right = ButtonPosition(rawValue: 1 << 3)
+  public static let middle = ButtonPosition(rawValue: 1 << 4)
   
-  static let bottomRight: ButtonPosition = [.right, .bottom]
-  static let bottomLeft: ButtonPosition = [.left, .bottom]
-  static let topRight: ButtonPosition = [.right, .top]
-  static let topLeft: ButtonPosition = [.left, .top]
+  public static let bottomRight: ButtonPosition = [.right, .bottom]
+  public static let bottomLeft: ButtonPosition = [.left, .bottom]
+  public static let topRight: ButtonPosition = [.right, .top]
+  public static let topLeft: ButtonPosition = [.left, .top]
 }
 
 public enum ScalingGradientAnimatedButtonViewError: Error
@@ -139,6 +139,54 @@ public class ScalingGradientAnimatedButton: UIView
     self.shouldHaveGradientAnimation = shouldHaveSelectedGradientAnimation
   }
   
+  /// init function to inject dependencies into the button
+  ///
+  /// - Parameters:
+  ///   - opacity: opacity that the button must have
+  ///   - startGradientColors: the button can have a gradient when not selected
+  ///   - startLocations: locatons of the gradient when not selected
+  ///   - selectedGradientColors: gradient colors for when the button is selected
+  ///   - selectedLocations: locations of the gradient when the button is selected
+  ///   - buttonScale: scale of the selected button, it will move forward if grater than one or back if less than one
+  ///   - animationDuration: duration of the animation for the selection of the gradient and the scale
+  ///   - shadowOpacity: opacity of the button shadow
+  ///   - shadowRadius: radius of the shadow
+  /// - Throws: startGradientColorsAndLocationMismatch, thown when there is a mismatch in the colors for the selected gradient and the no selected gradient
+  public func initButton(opacity: Float,
+                         startGradientColors: [UIColor],
+                         startLocations: [NSNumber],
+                         buttonScale: CGFloat,
+                         animationDuration: TimeInterval,
+                         shadowOpacity: CGFloat,
+                         shadowRadius: CGFloat) throws
+  {
+    guard startLocations.count == startGradientColors.count && selectedGradientColors.count == selectedLocations.count
+      else
+    {
+      throw ScalingGradientAnimatedButtonViewError.startGradientColorsAndLocationMismatch("Gradient Locations and Gradient Colors must have the same size")
+    }
+    self.startGradientColors = startGradientColors
+    self.startLocations = startLocations
+    
+    self.selectedGradientColors = startGradientColors
+    self.selectedLocations = startLocations
+    self.buttonOpacity = opacity
+    
+    gradientLayer.removeFromSuperlayer()
+    
+    gradientLayer = createInitialGradientLayer()
+    gradientLayer.frame = CGRect(x: 0, y: 0, width: bounds.size.width, height: bounds.size.height)
+    layer.insertSublayer(gradientLayer, at: 0)
+    
+    gradientLayer.opacity = buttonOpacity
+    self.buttonScale = buttonScale
+    self.animDuration = animationDuration
+    self.shadowRadius = shadowRadius
+    self.shadowOpacity = shadowOpacity
+    
+    self.shouldHaveGradientAnimation = false
+  }
+  
   
   /// init function for inject dependencies into the button
   ///
@@ -158,7 +206,7 @@ public class ScalingGradientAnimatedButton: UIView
                          animationDuration: TimeInterval,
                          shadowOpacity: CGFloat,
                          shadowRadius: CGFloat,
-                         shouldHaveSelectedColorAnimation: Bool) throws
+                         shouldHaveSelectedColorAnimation: Bool)
   {
     self.startGradientColors = [color, color]
     self.startLocations = [0.1, 0.9]
@@ -180,6 +228,46 @@ public class ScalingGradientAnimatedButton: UIView
     self.shadowOpacity = shadowOpacity
     
     self.shouldHaveGradientAnimation = shouldHaveSelectedColorAnimation
+  }
+  
+  /// init function for inject dependencies into the button
+  ///
+  /// - Parameters:
+  ///   - opacity: opacity that the button must have
+  ///   - color: color for the button when not selected
+  ///   - selectedColor: color for the button when selected
+  ///   - buttonScale: scale of the selected button, it will move forward if greater than one or back if less than one
+  ///   - animationDuration: duration of the animation for the selction of the color and the scale
+  ///   - shadowOpacity: opacity for the button shadow
+  ///   - shadowRadius: radius of the shadow
+  ///   - shouldHaveSelectedColorAnimation: a boolean to choose fi the button must change color when selected
+  public func initButton(opacity: Float,
+                         color: UIColor,
+                         buttonScale: CGFloat,
+                         animationDuration: TimeInterval,
+                         shadowOpacity: CGFloat,
+                         shadowRadius: CGFloat)
+  {
+    self.startGradientColors = [color, color]
+    self.startLocations = [0.1, 0.9]
+    
+    self.selectedGradientColors = [color, color]
+    self.selectedLocations = [0.1, 0.9]
+    self.buttonOpacity = opacity
+    
+    gradientLayer.removeFromSuperlayer()
+    
+    gradientLayer = createInitialGradientLayer()
+    gradientLayer.frame = CGRect(x: 0, y: 0, width: bounds.size.width, height: bounds.size.height)
+    layer.insertSublayer(gradientLayer, at: 0)
+    
+    gradientLayer.opacity = buttonOpacity
+    self.buttonScale = buttonScale
+    self.animDuration = animationDuration
+    self.shadowRadius = shadowRadius
+    self.shadowOpacity = shadowOpacity
+    
+    self.shouldHaveGradientAnimation = false
   }
   
   override public func layoutSubviews()
