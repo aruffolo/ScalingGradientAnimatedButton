@@ -11,6 +11,8 @@ ScalingGradientAnimatedButton is a subclass of UIView, written is Swift, that en
 ![](ButtonScreen.PNG?raw=true "Button Screenshoot in 'A Complex Calc")
 ![](ButtonScreenLeft.PNG?raw=true "Button Screenshoot in 'A Complex Calc")
 
+You can see those buttons in the iOS App: 'A Complex Calc': https://tinyurl.com/y9vnsmzx
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
